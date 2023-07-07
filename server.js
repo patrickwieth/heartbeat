@@ -30,7 +30,7 @@ app.options(options)
 
 let hydroponicRunning = false
 let timer = null
-let interval = 600000 // timer interval in ms
+let interval = 10000 // timer interval in ms
 
 //routes
 app.get('/hydroponic/:status', function(req, res) {
